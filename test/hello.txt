@@ -1,0 +1,49 @@
+['LD', "'H'"]
+['ST', 'OUTPUT']
+['LD', "'E'"]
+['ST', 'OUTPUT']
+['LD', "'L'"]
+['ST', 'OUTPUT']
+['LD', "'L'"]
+['ST', 'OUTPUT']
+['LD', "'O'"]
+['ST', 'OUTPUT']
+['LD', "','"]
+['ST', 'OUTPUT']
+['LD', "'W'"]
+['ST', 'OUTPUT']
+['LD', "'O'"]
+['ST', 'OUTPUT']
+['LD', "'R'"]
+['ST', 'OUTPUT']
+['LD', "'L'"]
+['ST', 'OUTPUT']
+['LD', "'D'"]
+['ST', 'OUTPUT']
+['HLT']
+DEBUG:root:{ instr:1, BR:0, AC:34, SP:256, PS:0, IP:1, AR:0, IR:LD 'H' }  LD 'H'
+DEBUG:root:{ instr:2, BR:0, AC:34, SP:256, PS:0, IP:2, AR:1, IR:ST OUTPUT }  ST OUTPUT
+DEBUG:root:{ instr:3, BR:0, AC:5, SP:256, PS:0, IP:3, AR:2, IR:LD 'e' }  LD 'e'
+DEBUG:root:{ instr:4, BR:0, AC:5, SP:256, PS:0, IP:4, AR:3, IR:ST OUTPUT }  ST OUTPUT
+DEBUG:root:{ instr:5, BR:0, AC:12, SP:256, PS:0, IP:5, AR:4, IR:LD 'l' }  LD 'l'
+DEBUG:root:{ instr:6, BR:0, AC:12, SP:256, PS:0, IP:6, AR:5, IR:ST OUTPUT }  ST OUTPUT
+DEBUG:root:{ instr:7, BR:0, AC:12, SP:256, PS:0, IP:7, AR:6, IR:LD 'l' }  LD 'l'
+DEBUG:root:{ instr:8, BR:0, AC:12, SP:256, PS:0, IP:8, AR:7, IR:ST OUTPUT }  ST OUTPUT
+DEBUG:root:{ instr:9, BR:0, AC:15, SP:256, PS:0, IP:9, AR:8, IR:LD 'o' }  LD 'o'
+DEBUG:root:{ instr:10, BR:0, AC:15, SP:256, PS:0, IP:10, AR:9, IR:ST OUTPUT }  ST OUTPUT
+DEBUG:root:{ instr:11, BR:0, AC:65, SP:256, PS:0, IP:11, AR:10, IR:LD ',' }  LD ','
+DEBUG:root:{ instr:12, BR:0, AC:65, SP:256, PS:0, IP:12, AR:11, IR:ST OUTPUT }  ST OUTPUT
+DEBUG:root:{ instr:13, BR:0, AC:23, SP:256, PS:0, IP:13, AR:12, IR:LD 'w' }  LD 'w'
+DEBUG:root:{ instr:14, BR:0, AC:23, SP:256, PS:0, IP:14, AR:13, IR:ST OUTPUT }  ST OUTPUT
+DEBUG:root:{ instr:15, BR:0, AC:15, SP:256, PS:0, IP:15, AR:14, IR:LD 'o' }  LD 'o'
+DEBUG:root:{ instr:16, BR:0, AC:15, SP:256, PS:0, IP:16, AR:15, IR:ST OUTPUT }  ST OUTPUT
+DEBUG:root:{ instr:17, BR:0, AC:18, SP:256, PS:0, IP:17, AR:16, IR:LD 'r' }  LD 'r'
+DEBUG:root:{ instr:18, BR:0, AC:18, SP:256, PS:0, IP:18, AR:17, IR:ST OUTPUT }  ST OUTPUT
+DEBUG:root:{ instr:19, BR:0, AC:12, SP:256, PS:0, IP:19, AR:18, IR:LD 'l' }  LD 'l'
+DEBUG:root:{ instr:20, BR:0, AC:12, SP:256, PS:0, IP:20, AR:19, IR:ST OUTPUT }  ST OUTPUT
+DEBUG:root:{ instr:21, BR:0, AC:4, SP:256, PS:0, IP:21, AR:20, IR:LD 'd' }  LD 'd'
+DEBUG:root:{ instr:22, BR:0, AC:4, SP:256, PS:0, IP:22, AR:21, IR:ST OUTPUT }  ST OUTPUT
+DEBUG:root:{ instr:23, BR:0, AC:4, SP:256, PS:0, IP:23, AR:22, IR:HLT }  HLT
+Output:
+Hello,world
+Test finished.
